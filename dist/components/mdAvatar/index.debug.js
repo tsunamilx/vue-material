@@ -73,7 +73,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/ 	__webpack_require__.p = "/";
 
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 397);
+/******/ 	return __webpack_require__(__webpack_require__.s = 411);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -194,7 +194,7 @@ module.exports = exports['default'];
 
 /***/ }),
 
-/***/ 131:
+/***/ 137:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -225,38 +225,38 @@ module.exports = exports['default'];
 
 /***/ }),
 
-/***/ 215:
+/***/ 224:
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
 
-/***/ 233:
+/***/ 242:
 /***/ (function(module, exports) {
 
 module.exports = ".THEME_NAME.md-avatar.md-primary.md-avatar-icon {\n  background-color: PRIMARY-COLOR; }\n  .THEME_NAME.md-avatar.md-primary.md-avatar-icon .md-icon {\n    color: PRIMARY-CONTRAST-0.99999; }\n\n.THEME_NAME.md-avatar.md-accent.md-avatar-icon {\n  background-color: ACCENT-COLOR; }\n  .THEME_NAME.md-avatar.md-accent.md-avatar-icon .md-icon {\n    color: ACCENT-CONTRAST-0.99999; }\n\n.THEME_NAME.md-avatar.md-warn.md-avatar-icon {\n  background-color: WARN-COLOR; }\n  .THEME_NAME.md-avatar.md-warn.md-avatar-icon .md-icon {\n    color: WARN-CONTRAST-0.99999; }\n"
 
 /***/ }),
 
-/***/ 260:
+/***/ 270:
 /***/ (function(module, exports, __webpack_require__) {
 
 
 /* styles */
-__webpack_require__(215)
+__webpack_require__(224)
 
 var Component = __webpack_require__(0)(
   /* script */
-  __webpack_require__(131),
+  __webpack_require__(137),
   /* template */
-  __webpack_require__(364),
+  __webpack_require__(378),
   /* scopeId */
   null,
   /* cssModules */
   null
 )
-Component.options.__file = "/Users/mrufino/Projects/personal/github/vue-material/src/components/mdAvatar/mdAvatar.vue"
+Component.options.__file = "/Users/lixiao/Workspace/Web/vue-material/src/components/mdAvatar/mdAvatar.vue"
 if (Component.esModule && Object.keys(Component.esModule).some((function (key) {return key !== "default" && key !== "__esModule"}))) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] mdAvatar.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -278,7 +278,7 @@ module.exports = Component.exports
 
 /***/ }),
 
-/***/ 364:
+/***/ 378:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -297,15 +297,15 @@ if (false) {
 
 /***/ }),
 
-/***/ 397:
+/***/ 411:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(90);
+module.exports = __webpack_require__(94);
 
 
 /***/ }),
 
-/***/ 90:
+/***/ 94:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -316,11 +316,11 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = install;
 
-var _mdAvatar = __webpack_require__(260);
+var _mdAvatar = __webpack_require__(270);
 
 var _mdAvatar2 = _interopRequireDefault(_mdAvatar);
 
-var _mdAvatar3 = __webpack_require__(233);
+var _mdAvatar3 = __webpack_require__(242);
 
 var _mdAvatar4 = _interopRequireDefault(_mdAvatar3);
 

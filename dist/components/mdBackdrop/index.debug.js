@@ -73,7 +73,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/ 	__webpack_require__.p = "/";
 
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 398);
+/******/ 	return __webpack_require__(__webpack_require__.s = 412);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -132,7 +132,7 @@ module.exports = function normalizeComponent (
 
 /***/ }),
 
-/***/ 132:
+/***/ 138:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -159,31 +159,31 @@ module.exports = exports['default'];
 
 /***/ }),
 
-/***/ 232:
+/***/ 241:
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
 
-/***/ 261:
+/***/ 271:
 /***/ (function(module, exports, __webpack_require__) {
 
 
 /* styles */
-__webpack_require__(232)
+__webpack_require__(241)
 
 var Component = __webpack_require__(0)(
   /* script */
-  __webpack_require__(132),
+  __webpack_require__(138),
   /* template */
-  __webpack_require__(393),
+  __webpack_require__(407),
   /* scopeId */
   null,
   /* cssModules */
   null
 )
-Component.options.__file = "/Users/mrufino/Projects/personal/github/vue-material/src/components/mdBackdrop/mdBackdrop.vue"
+Component.options.__file = "/Users/lixiao/Workspace/Web/vue-material/src/components/mdBackdrop/mdBackdrop.vue"
 if (Component.esModule && Object.keys(Component.esModule).some((function (key) {return key !== "default" && key !== "__esModule"}))) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] mdBackdrop.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -205,7 +205,7 @@ module.exports = Component.exports
 
 /***/ }),
 
-/***/ 393:
+/***/ 407:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -230,15 +230,15 @@ if (false) {
 
 /***/ }),
 
-/***/ 398:
+/***/ 412:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(91);
+module.exports = __webpack_require__(95);
 
 
 /***/ }),
 
-/***/ 91:
+/***/ 95:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -249,7 +249,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = install;
 
-var _mdBackdrop = __webpack_require__(261);
+var _mdBackdrop = __webpack_require__(271);
 
 var _mdBackdrop2 = _interopRequireDefault(_mdBackdrop);
 

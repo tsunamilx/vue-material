@@ -73,7 +73,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/ 	__webpack_require__.p = "/";
 
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 417);
+/******/ 	return __webpack_require__(__webpack_require__.s = 432);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -194,7 +194,7 @@ module.exports = exports['default'];
 
 /***/ }),
 
-/***/ 110:
+/***/ 115:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -205,11 +205,11 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = install;
 
-var _mdSidenav = __webpack_require__(308);
+var _mdSidenav = __webpack_require__(320);
 
 var _mdSidenav2 = _interopRequireDefault(_mdSidenav);
 
-var _mdSidenav3 = __webpack_require__(250);
+var _mdSidenav3 = __webpack_require__(260);
 
 var _mdSidenav4 = _interopRequireDefault(_mdSidenav3);
 
@@ -224,7 +224,7 @@ module.exports = exports['default'];
 
 /***/ }),
 
-/***/ 170:
+/***/ 178:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -368,38 +368,38 @@ module.exports = exports['default'];
 
 /***/ }),
 
-/***/ 218:
+/***/ 227:
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
 
-/***/ 250:
+/***/ 260:
 /***/ (function(module, exports) {
 
 module.exports = ".THEME_NAME.md-sidenav .md-sidenav-content {\n  background-color: BACKGROUND-COLOR;\n  color: BACKGROUND-CONTRAST; }\n"
 
 /***/ }),
 
-/***/ 308:
+/***/ 320:
 /***/ (function(module, exports, __webpack_require__) {
 
 
 /* styles */
-__webpack_require__(218)
+__webpack_require__(227)
 
 var Component = __webpack_require__(0)(
   /* script */
-  __webpack_require__(170),
+  __webpack_require__(178),
   /* template */
-  __webpack_require__(367),
+  __webpack_require__(381),
   /* scopeId */
   null,
   /* cssModules */
   null
 )
-Component.options.__file = "/Users/mrufino/Projects/personal/github/vue-material/src/components/mdSidenav/mdSidenav.vue"
+Component.options.__file = "/Users/lixiao/Workspace/Web/vue-material/src/components/mdSidenav/mdSidenav.vue"
 if (Component.esModule && Object.keys(Component.esModule).some((function (key) {return key !== "default" && key !== "__esModule"}))) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] mdSidenav.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -421,7 +421,7 @@ module.exports = Component.exports
 
 /***/ }),
 
-/***/ 367:
+/***/ 381:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -457,10 +457,10 @@ if (false) {
 
 /***/ }),
 
-/***/ 417:
+/***/ 432:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(110);
+module.exports = __webpack_require__(115);
 
 
 /***/ })

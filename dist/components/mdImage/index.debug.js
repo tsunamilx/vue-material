@@ -73,7 +73,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/ 	__webpack_require__.p = "/";
 
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 409);
+/******/ 	return __webpack_require__(__webpack_require__.s = 423);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -132,7 +132,7 @@ module.exports = function normalizeComponent (
 
 /***/ }),
 
-/***/ 102:
+/***/ 106:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -143,11 +143,11 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = install;
 
-var _mdImage = __webpack_require__(289);
+var _mdImage = __webpack_require__(299);
 
 var _mdImage2 = _interopRequireDefault(_mdImage);
 
-var _mdImage3 = __webpack_require__(243);
+var _mdImage3 = __webpack_require__(252);
 
 var _mdImage4 = _interopRequireDefault(_mdImage3);
 
@@ -162,7 +162,7 @@ module.exports = exports['default'];
 
 /***/ }),
 
-/***/ 152:
+/***/ 158:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -172,7 +172,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _getImageLightness = __webpack_require__(58);
+var _getImageLightness = __webpack_require__(59);
 
 var _getImageLightness2 = _interopRequireDefault(_getImageLightness);
 
@@ -248,38 +248,38 @@ module.exports = exports['default'];
 
 /***/ }),
 
-/***/ 229:
+/***/ 238:
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
 
-/***/ 243:
+/***/ 252:
 /***/ (function(module, exports) {
 
 module.exports = ""
 
 /***/ }),
 
-/***/ 289:
+/***/ 299:
 /***/ (function(module, exports, __webpack_require__) {
 
 
 /* styles */
-__webpack_require__(229)
+__webpack_require__(238)
 
 var Component = __webpack_require__(0)(
   /* script */
-  __webpack_require__(152),
+  __webpack_require__(158),
   /* template */
-  __webpack_require__(389),
+  __webpack_require__(403),
   /* scopeId */
   null,
   /* cssModules */
   null
 )
-Component.options.__file = "/Users/mrufino/Projects/personal/github/vue-material/src/components/mdImage/mdImage.vue"
+Component.options.__file = "/Users/lixiao/Workspace/Web/vue-material/src/components/mdImage/mdImage.vue"
 if (Component.esModule && Object.keys(Component.esModule).some((function (key) {return key !== "default" && key !== "__esModule"}))) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] mdImage.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -301,7 +301,7 @@ module.exports = Component.exports
 
 /***/ }),
 
-/***/ 389:
+/***/ 403:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -323,15 +323,15 @@ if (false) {
 
 /***/ }),
 
-/***/ 409:
+/***/ 423:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(102);
+module.exports = __webpack_require__(106);
 
 
 /***/ }),
 
-/***/ 58:
+/***/ 59:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";

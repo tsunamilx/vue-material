@@ -7,7 +7,7 @@
 		exports["VueMaterial"] = factory(require("vue"));
 	else
 		root["VueMaterial"] = factory(root["Vue"]);
-})(this, (function(__WEBPACK_EXTERNAL_MODULE_395__) {
+})(this, (function(__WEBPACK_EXTERNAL_MODULE_409__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -73,7 +73,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/ 	__webpack_require__.p = "/";
 
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 418);
+/******/ 	return __webpack_require__(__webpack_require__.s = 433);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -194,7 +194,7 @@ module.exports = exports['default'];
 
 /***/ }),
 
-/***/ 111:
+/***/ 116:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -205,11 +205,11 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = install;
 
-var _mdSnackbar = __webpack_require__(309);
+var _mdSnackbar = __webpack_require__(321);
 
 var _mdSnackbar2 = _interopRequireDefault(_mdSnackbar);
 
-var _mdSnackbar3 = __webpack_require__(251);
+var _mdSnackbar3 = __webpack_require__(261);
 
 var _mdSnackbar4 = _interopRequireDefault(_mdSnackbar3);
 
@@ -224,7 +224,7 @@ module.exports = exports['default'];
 
 /***/ }),
 
-/***/ 124:
+/***/ 129:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -234,7 +234,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _vue = __webpack_require__(395);
+var _vue = __webpack_require__(409);
 
 var _vue2 = _interopRequireDefault(_vue);
 
@@ -253,7 +253,7 @@ module.exports = exports['default'];
 
 /***/ }),
 
-/***/ 171:
+/***/ 179:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -275,7 +275,7 @@ var _mixin = __webpack_require__(1);
 
 var _mixin2 = _interopRequireDefault(_mixin);
 
-var _manager = __webpack_require__(124);
+var _manager = __webpack_require__(129);
 
 var _manager2 = _interopRequireDefault(_manager);
 
@@ -419,38 +419,38 @@ module.exports = exports['default'];
 
 /***/ }),
 
-/***/ 230:
+/***/ 239:
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
 
-/***/ 251:
+/***/ 261:
 /***/ (function(module, exports) {
 
 module.exports = ".THEME_NAME .md-snackbar .md-ink-ripple, .THEME_NAME.md-snackbar .md-ink-ripple {\n  color: #fff; }\n"
 
 /***/ }),
 
-/***/ 309:
+/***/ 321:
 /***/ (function(module, exports, __webpack_require__) {
 
 
 /* styles */
-__webpack_require__(230)
+__webpack_require__(239)
 
 var Component = __webpack_require__(0)(
   /* script */
-  __webpack_require__(171),
+  __webpack_require__(179),
   /* template */
-  __webpack_require__(390),
+  __webpack_require__(404),
   /* scopeId */
   null,
   /* cssModules */
   null
 )
-Component.options.__file = "/Users/mrufino/Projects/personal/github/vue-material/src/components/mdSnackbar/mdSnackbar.vue"
+Component.options.__file = "/Users/lixiao/Workspace/Web/vue-material/src/components/mdSnackbar/mdSnackbar.vue"
 if (Component.esModule && Object.keys(Component.esModule).some((function (key) {return key !== "default" && key !== "__esModule"}))) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] mdSnackbar.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -502,7 +502,7 @@ module.exports = exports['default'];
 
 /***/ }),
 
-/***/ 390:
+/***/ 404:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -533,17 +533,17 @@ if (false) {
 
 /***/ }),
 
-/***/ 395:
+/***/ 409:
 /***/ (function(module, exports) {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE_395__;
+module.exports = __WEBPACK_EXTERNAL_MODULE_409__;
 
 /***/ }),
 
-/***/ 418:
+/***/ 433:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(111);
+module.exports = __webpack_require__(116);
 
 
 /***/ }),

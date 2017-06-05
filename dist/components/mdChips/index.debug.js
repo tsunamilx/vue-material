@@ -73,7 +73,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/ 	__webpack_require__.p = "/";
 
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 404);
+/******/ 	return __webpack_require__(__webpack_require__.s = 418);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -194,7 +194,42 @@ module.exports = exports['default'];
 
 /***/ }),
 
-/***/ 144:
+/***/ 101:
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = install;
+
+var _mdChips = __webpack_require__(288);
+
+var _mdChips2 = _interopRequireDefault(_mdChips);
+
+var _mdChip = __webpack_require__(287);
+
+var _mdChip2 = _interopRequireDefault(_mdChip);
+
+var _mdChips3 = __webpack_require__(248);
+
+var _mdChips4 = _interopRequireDefault(_mdChips3);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function install(Vue) {
+  Vue.component('md-chips', _mdChips2.default);
+  Vue.component('md-chip', _mdChip2.default);
+
+  Vue.material.styles.push(_mdChips4.default);
+}
+module.exports = exports['default'];
+
+/***/ }),
+
+/***/ 150:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -244,7 +279,7 @@ module.exports = exports['default'];
 
 /***/ }),
 
-/***/ 145:
+/***/ 151:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -379,34 +414,34 @@ module.exports = exports['default'];
 
 /***/ }),
 
-/***/ 219:
+/***/ 228:
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
 
-/***/ 239:
+/***/ 248:
 /***/ (function(module, exports) {
 
 module.exports = ".THEME_NAME.md-chip {\n  background-color: BACKGROUND-CONTRAST-0.12; }\n  .THEME_NAME.md-chip.md-deletable:hover, .THEME_NAME.md-chip.md-deletable:focus {\n    background-color: BACKGROUND-CONTRAST-0.54;\n    color: BACKGROUND-COLOR; }\n    .THEME_NAME.md-chip.md-deletable:hover .md-delete, .THEME_NAME.md-chip.md-deletable:focus .md-delete {\n      color: BACKGROUND-COLOR; }\n  .THEME_NAME.md-chip .md-delete {\n    color: BACKGROUND-CONTRAST-0.38; }\n    .THEME_NAME.md-chip .md-delete .md-ripple {\n      color: BACKGROUND-COLOR; }\n"
 
 /***/ }),
 
-/***/ 277:
+/***/ 287:
 /***/ (function(module, exports, __webpack_require__) {
 
 var Component = __webpack_require__(0)(
   /* script */
-  __webpack_require__(144),
+  __webpack_require__(150),
   /* template */
-  __webpack_require__(352),
+  __webpack_require__(365),
   /* scopeId */
   null,
   /* cssModules */
   null
 )
-Component.options.__file = "/Users/mrufino/Projects/personal/github/vue-material/src/components/mdChips/mdChip.vue"
+Component.options.__file = "/Users/lixiao/Workspace/Web/vue-material/src/components/mdChips/mdChip.vue"
 if (Component.esModule && Object.keys(Component.esModule).some((function (key) {return key !== "default" && key !== "__esModule"}))) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] mdChip.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -428,24 +463,24 @@ module.exports = Component.exports
 
 /***/ }),
 
-/***/ 278:
+/***/ 288:
 /***/ (function(module, exports, __webpack_require__) {
 
 
 /* styles */
-__webpack_require__(219)
+__webpack_require__(228)
 
 var Component = __webpack_require__(0)(
   /* script */
-  __webpack_require__(145),
+  __webpack_require__(151),
   /* template */
-  __webpack_require__(369),
+  __webpack_require__(383),
   /* scopeId */
   null,
   /* cssModules */
   null
 )
-Component.options.__file = "/Users/mrufino/Projects/personal/github/vue-material/src/components/mdChips/mdChips.vue"
+Component.options.__file = "/Users/lixiao/Workspace/Web/vue-material/src/components/mdChips/mdChips.vue"
 if (Component.esModule && Object.keys(Component.esModule).some((function (key) {return key !== "default" && key !== "__esModule"}))) {console.error("named exports are not supported in *.vue files.")}
 if (Component.options.functional) {console.error("[vue-loader] mdChips.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -467,7 +502,7 @@ module.exports = Component.exports
 
 /***/ }),
 
-/***/ 352:
+/***/ 365:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -505,7 +540,7 @@ if (false) {
 
 /***/ }),
 
-/***/ 369:
+/***/ 383:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -587,10 +622,10 @@ if (false) {
 
 /***/ }),
 
-/***/ 404:
+/***/ 418:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(97);
+module.exports = __webpack_require__(101);
 
 
 /***/ }),
@@ -610,41 +645,6 @@ var uniqueId = function uniqueId() {
 
 exports.default = uniqueId;
 module.exports = exports["default"];
-
-/***/ }),
-
-/***/ 97:
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = install;
-
-var _mdChips = __webpack_require__(278);
-
-var _mdChips2 = _interopRequireDefault(_mdChips);
-
-var _mdChip = __webpack_require__(277);
-
-var _mdChip2 = _interopRequireDefault(_mdChip);
-
-var _mdChips3 = __webpack_require__(239);
-
-var _mdChips4 = _interopRequireDefault(_mdChips3);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function install(Vue) {
-  Vue.component('md-chips', _mdChips2.default);
-  Vue.component('md-chip', _mdChip2.default);
-
-  Vue.material.styles.push(_mdChips4.default);
-}
-module.exports = exports['default'];
 
 /***/ })
 
