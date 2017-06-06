@@ -7872,7 +7872,7 @@ exports.default = {
         return _this.options[el];
       }));
 
-      if (optionsArray && optionsArray.length && modelValue.indexOf) {
+      if (optionsArray && optionsArray.length && modelValue && modelValue.indexOf) {
         optionsArray.filter((function (el) {
           return modelValue.indexOf(el.value) !== -1;
         })).forEach((function (el) {

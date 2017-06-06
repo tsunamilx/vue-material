@@ -96,7 +96,7 @@
       selectOptions(modelValue) {
         const optionsArray = Object.keys(this.options).map((el) => this.options[el]);
 
-        if (optionsArray && optionsArray.length && modelValue.indexOf) {
+        if (optionsArray && optionsArray.length && modelValue && modelValue.indexOf) {
           optionsArray.filter((el) => modelValue.indexOf(el.value) !== -1)
             .forEach((el) => {
               el.check = true;
