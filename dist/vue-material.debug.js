@@ -7873,14 +7873,16 @@ exports.default = {
       }));
 
       if (optionsArray && optionsArray.length && modelValue && modelValue.indexOf) {
-        console.log(optionsArray, modelValue);
+        console.log(modelValue);
         optionsArray.forEach((function (el) {
-          console.log(el.value, el.check);
+          el.check = false;
+          console.log('uncheck', el.value, el.check);
         }));
         optionsArray.filter((function (el) {
           return modelValue.indexOf(el.value) !== -1;
         })).forEach((function (el) {
           el.check = true;
+          console.log('check', el.value, el.check);
         }));
       }
     },

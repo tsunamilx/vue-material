@@ -97,13 +97,15 @@
         const optionsArray = Object.keys(this.options).map((el) => this.options[el]);
 
         if (optionsArray && optionsArray.length && modelValue && modelValue.indexOf) {
-          console.log(optionsArray, modelValue);
+          console.log(modelValue);
           optionsArray.forEach((el) => {
-            console.log(el.value, el.check);
+            el.check = false;
+            console.log('uncheck', el.value, el.check);
           });
           optionsArray.filter((el) => modelValue.indexOf(el.value) !== -1)
             .forEach((el) => {
               el.check = true;
+              console.log('check', el.value, el.check);
             });
         }
       },
