@@ -625,11 +625,24 @@ exports.default = {
     setParentPlaceholder: function setParentPlaceholder() {
       this.parentContainer.hasPlaceholder = !!this.placeholder;
     },
-    selectOptions: function selectOptions(modelValue) {
+    reset: function reset() {
       var _this = this;
 
+      console.log('reset select');
       var optionsArray = (0, _keys2.default)(this.options).map((function (el) {
         return _this.options[el];
+      }));
+      optionsArray.forEach((function (el) {
+        el.check = false;
+        console.log('uncheck', el.value, el.check);
+      }));
+    },
+    selectOptions: function selectOptions(modelValue) {
+      var _this2 = this;
+
+      console.log('select options', modelValue);
+      var optionsArray = (0, _keys2.default)(this.options).map((function (el) {
+        return _this2.options[el];
       }));
 
       if (optionsArray && optionsArray.length && modelValue && modelValue.indexOf) {
@@ -647,12 +660,12 @@ exports.default = {
       }
     },
     getSingleValue: function getSingleValue(value) {
-      var _this2 = this;
+      var _this3 = this;
 
       var output = {};
 
       (0, _keys2.default)(this.options).forEach((function (index) {
-        var options = _this2.options[index];
+        var options = _this3.options[index];
 
         if (options.value === value) {
           output.value = value;
@@ -663,20 +676,20 @@ exports.default = {
       return output;
     },
     getMultipleValue: function getMultipleValue(modelValue) {
-      var _this3 = this;
+      var _this4 = this;
 
       if ((0, _isArray2.default)(this.value)) {
         var _ret = (function () {
           var outputText = [];
 
           modelValue.forEach((function (value) {
-            (0, _keys2.default)(_this3.options).forEach((function (index) {
-              var options = _this3.options[index];
+            (0, _keys2.default)(_this4.options).forEach((function (index) {
+              var options = _this4.options[index];
 
               if (options.value === value) {
                 var text = options.$refs.item.textContent;
 
-                _this3.multipleOptions[index] = {
+                _this4.multipleOptions[index] = {
                   value: value,
                   text: text
                 };

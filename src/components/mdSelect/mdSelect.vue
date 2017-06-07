@@ -93,7 +93,18 @@
       setParentPlaceholder() {
         this.parentContainer.hasPlaceholder = !!this.placeholder;
       },
+
+      reset() {
+        console.log('reset select');
+        const optionsArray = Object.keys(this.options).map((el) => this.options[el]);
+  
+        optionsArray.forEach((el) => {
+          el.check = false;
+          console.log('uncheck', el.value, el.check);
+        });
+      },
       selectOptions(modelValue) {
+        console.log('select options', modelValue);
         const optionsArray = Object.keys(this.options).map((el) => this.options[el]);
 
         if (optionsArray && optionsArray.length && modelValue && modelValue.indexOf) {
