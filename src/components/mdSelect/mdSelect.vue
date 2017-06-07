@@ -97,8 +97,9 @@
         const optionsArray = Object.keys(this.options).map((el) => this.options[el]);
 
         if (optionsArray && optionsArray.length && modelValue && modelValue.indexOf) {
+          console.log(optionsArray, modelValue);
           optionsArray.forEach((el) => {
-            el.check = false;
+            //el.check = false;
           });
           optionsArray.filter((el) => modelValue.indexOf(el.value) !== -1)
             .forEach((el) => {

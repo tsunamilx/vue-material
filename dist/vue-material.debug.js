@@ -7873,8 +7873,9 @@ exports.default = {
       }));
 
       if (optionsArray && optionsArray.length && modelValue && modelValue.indexOf) {
+        console.log(optionsArray, modelValue);
         optionsArray.forEach((function (el) {
-          el.check = false;
+          //el.check = false;
         }));
         optionsArray.filter((function (el) {
           return modelValue.indexOf(el.value) !== -1;
