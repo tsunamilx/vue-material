@@ -7875,7 +7875,7 @@ exports.default = {
       if (optionsArray && optionsArray.length && modelValue && modelValue.indexOf) {
         console.log(optionsArray, modelValue);
         optionsArray.forEach((function (el) {
-          //el.check = false;
+          console.log(el.value, el.check);
         }));
         optionsArray.filter((function (el) {
           return modelValue.indexOf(el.value) !== -1;
