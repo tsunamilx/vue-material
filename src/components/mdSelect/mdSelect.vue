@@ -93,10 +93,23 @@
       setParentPlaceholder() {
         this.parentContainer.hasPlaceholder = !!this.placeholder;
       },
+
+      reset() {
+        console.log('reset select');
+        const optionsArray = Object.keys(this.options).map((el) => this.options[el]);
+  
+        optionsArray.forEach((el) => {
+          el.check = false;
+        });
+      },
+
       selectOptions(modelValue) {
         const optionsArray = Object.keys(this.options).map((el) => this.options[el]);
 
         if (optionsArray && optionsArray.length && modelValue && modelValue.indexOf) {
+          optionsArray.forEach((el) => {
+            //el.check = false;
+          });
           optionsArray.filter((el) => modelValue.indexOf(el.value) !== -1)
             .forEach((el) => {
               el.check = true;
