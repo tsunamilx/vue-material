@@ -633,6 +633,9 @@ exports.default = {
       }));
 
       if (optionsArray && optionsArray.length && modelValue && modelValue.indexOf) {
+        optionsArray.forEach((function (el) {
+          el.check = false;
+        }));
         optionsArray.filter((function (el) {
           return modelValue.indexOf(el.value) !== -1;
         })).forEach((function (el) {
