@@ -628,7 +628,6 @@ exports.default = {
     reset: function reset() {
       var _this = this;
 
-      console.log('reset select');
       var optionsArray = (0, _keys2.default)(this.options).map((function (el) {
         return _this.options[el];
       }));
@@ -645,9 +644,6 @@ exports.default = {
       }));
 
       if (optionsArray && optionsArray.length && modelValue && modelValue.indexOf) {
-        optionsArray.forEach((function (el) {
-          //el.check = false;
-        }));
         optionsArray.filter((function (el) {
           return modelValue.indexOf(el.value) !== -1;
         })).forEach((function (el) {

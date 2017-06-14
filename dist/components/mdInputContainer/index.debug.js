@@ -1043,6 +1043,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 //
 //
 //
+//
 
 exports.default = {
   mixins: [_common2.default],
@@ -1757,6 +1758,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     staticClass: "md-input",
     attrs: {
       "type": _vm.type,
+      "name": _vm.name,
       "disabled": _vm.disabled,
       "required": _vm.required,
       "placeholder": _vm.placeholder,

@@ -6258,6 +6258,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 //
 //
 //
+//
 
 exports.default = {
   mixins: [_common2.default],
@@ -7868,7 +7869,6 @@ exports.default = {
     reset: function reset() {
       var _this = this;
 
-      console.log('reset select');
       var optionsArray = (0, _keys2.default)(this.options).map((function (el) {
         return _this.options[el];
       }));
@@ -7885,9 +7885,6 @@ exports.default = {
       }));
 
       if (optionsArray && optionsArray.length && modelValue && modelValue.indexOf) {
-        optionsArray.forEach((function (el) {
-          //el.check = false;
-        }));
         optionsArray.filter((function (el) {
           return modelValue.indexOf(el.value) !== -1;
         })).forEach((function (el) {
@@ -13796,6 +13793,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     staticClass: "md-input",
     attrs: {
       "type": _vm.type,
+      "name": _vm.name,
       "disabled": _vm.disabled,
       "required": _vm.required,
       "placeholder": _vm.placeholder,
